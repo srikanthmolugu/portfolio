@@ -4,6 +4,11 @@
 	height:30%;
 	margin-left:37%;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
 .a {
 	margin-left:25%;
 	border-radius:2%;
@@ -24,4 +29,10 @@ img {
 	margin-right: auto;
 	width: 50%;
 }
-			
+	@media screen and (width: 95px) {
+    .b {
+        position: relative;
+        width: 100%;
+    }
+}
+		
